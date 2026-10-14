@@ -62,9 +62,26 @@
   "fxKRWUSD": 1339.86,
   "fxAsOf": "2026-10-13",
   "fxSource": "https://finance.yahoo.com/quote/USDKRW%3DX/history/",
-  "fallbackAUM": 88621,
-  "fallbackAUMAsOf": "2026-05-11",
-  "fallbackAUMSource": "https://file.alphasquare.co.kr/media/pdfs/market-report/_2026%EB%85%8420260520SK%EC%A6%9D%EA%B6%8C.",
-  "fallbackAUMScope": "SK Securities reported domestic MSCI Korea TR ETF sample; historical, not global tracking assets",
-  "weightModel": "Each candidate included individually; each risk monitor deleted individually. Static index cap plus/minus proxy float cap; no other changes. Not MSCI forecast."
+  "fallbackAUM": 65087.3,
+  "fallbackAUMAsOf": "2026-10-12",
+  "fallbackAUMSource": "https://ai.zeroin.co.kr/compare/msci-korea-tr-index",
+  "fallbackAUMScope": "KG Zeroin reported 3 domestic MSCI Korea TR ETFs. Approximate sum of rounded fund AUM, not total global tracking assets.",
+  "weightModel": "Each candidate included individually; each risk monitor deleted individually. Static index cap plus/minus proxy float cap; no other changes. Not MSCI forecast.",
+  "observedETF": [
+    {
+      "code": "310970",
+      "reportedAUMKRW100m": 42000,
+      "rounded": true
+    },
+    {
+      "code": "278540",
+      "reportedAUMKRW100m": 22000,
+      "rounded": true
+    },
+    {
+      "code": "332940",
+      "reportedAUMKRW100m": 1087.3,
+      "rounded": false
+    }
+  ]
 }
