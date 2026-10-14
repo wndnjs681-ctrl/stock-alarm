@@ -1,6 +1,6 @@
 {
   "provider": "KRX Open API",
-  "requestedDate": "2026-10-13",
+  "requestedDate": "2026-10-14",
   "asOf": "2026-10-13",
   "quotes": [
     {
@@ -177,7 +177,7 @@
   ],
   "missingCodes": [],
   "warnings": [],
-  "fetchedAt": "2026-10-14T13:40:54.568295+09:00",
+  "fetchedAt": "2026-10-14T23:28:15.236746+09:00",
   "metricsDefinition": {
     "cap": "KRX market capitalization / 100,000,000 KRW",
     "adv": "Mean of most recent 20 market sessions trading value / 100,000,000 KRW",
