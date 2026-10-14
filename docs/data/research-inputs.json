@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-14",
+  "floatProxy": {
+    "078930": {
+      "value": 46.86,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=078930",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "036930": {
+      "value": 66.96,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=036930",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "028050": {
+      "value": 79.44,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=028050",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "006260": {
+      "value": 54.54,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=006260",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "007660": {
+      "value": 73.45,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=007660",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "016360": {
+      "value": 69.81,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=016360",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "021240": {
+      "value": 71.42,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=021240",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "032640": {
+      "value": 60.32,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=032640",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    },
+    "000100": {
+      "value": 74.58,
+      "asOf": "2026-10-13",
+      "source": "https://comp.wisereport.co.kr/company/c1010001.aspx?cmp_cd=000100",
+      "kind": "FnGuide public float proxy; not MSCI FIF"
+    }
+  },
+  "indexCapUSD": 2620000000000,
+  "indexCapAsOf": "2026-09-30",
+  "indexCapSource": "https://www.msci.com/indexes/index/941000/msci-korea-index",
+  "fxKRWUSD": 1339.86,
+  "fxAsOf": "2026-10-13",
+  "fxSource": "https://finance.yahoo.com/quote/USDKRW%3DX/history/",
+  "fallbackAUM": 88621,
+  "fallbackAUMAsOf": "2026-05-11",
+  "fallbackAUMSource": "https://file.alphasquare.co.kr/media/pdfs/market-report/_2026%EB%85%8420260520SK%EC%A6%9D%EA%B6%8C.",
+  "fallbackAUMScope": "SK Securities reported domestic MSCI Korea TR ETF sample; historical, not global tracking assets",
+  "weightModel": "Each candidate included individually; each risk monitor deleted individually. Static index cap plus/minus proxy float cap; no other changes. Not MSCI forecast."
+}
