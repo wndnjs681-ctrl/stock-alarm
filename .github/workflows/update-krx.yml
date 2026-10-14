@@ -1,0 +1,51 @@
+name: Update KRX closing prices
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 9 * * 1-5' # 18:10 Asia/Seoul, weekdays; GitHub schedules can be delayed.
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-krx.yml'
+      - 'scripts/**'
+      - 'server.py'
+      - 'docs/index.html'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: krx-close-update
+  cancel-in-progress: false
+
+jobs:
+  closing-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test KRX adapter
+        run: python -m unittest discover -s tests
+      - name: Fetch KRX closes using existing Secret
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+        run: python scripts/update_krx.py
+      - name: Save verified prices
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/data/krx-quotes.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified KRX closing prices'
+            git push
+          fi
+      - name: Package dashboard
+        uses: actions/upload-artifact@v4
+        with:
+          name: msci-dashboard-with-krx-closes
+          path: docs/
+          retention-days: 14
