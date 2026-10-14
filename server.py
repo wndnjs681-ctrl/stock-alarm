@@ -45,6 +45,14 @@ def number(value):
         return None
 
 
+def nonnegative(value):
+    try:
+        result = float(str(value).replace(',', '').strip())
+        return result if 0 <= result < float('inf') else None
+    except (TypeError, ValueError):
+        return None
+
+
 def normalize(payload, day, market):
     if not isinstance(payload, dict) or not isinstance(payload.get('OutBlock_1'), list):
         raise DataError('KRX 응답 형식이 예상과 다릅니다. 인증키·API 승인·명세를 확인하세요.')
@@ -63,7 +71,11 @@ def normalize(payload, day, market):
         result.append({'code': code, 'name': row.get('ISU_NM', ''),
                        'closePrice': close, 'closeDate': day.isoformat(),
                        'closeSource': 'https://openapi.krx.co.kr/',
-                       'closeProvider': 'KRX Open API', 'market': market})
+                       'closeProvider': 'KRX Open API', 'market': market,
+                       'marketCapKRW': number(row.get('MKTCAP')),
+                       'tradingValueKRW': nonnegative(row.get('ACC_TRDVAL')),
+                       'tradingVolume': nonnegative(row.get('ACC_TRDVOL')),
+                       'listedShares': number(row.get('LIST_SHRS'))})
     return result
 
 
