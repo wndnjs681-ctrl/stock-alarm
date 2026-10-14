@@ -177,7 +177,7 @@
   ],
   "missingCodes": [],
   "warnings": [],
-  "fetchedAt": "2026-10-14T13:25:13.115678+09:00",
+  "fetchedAt": "2026-10-14T13:35:55.770435+09:00",
   "metricsDefinition": {
     "cap": "KRX market capitalization / 100,000,000 KRW",
     "adv": "Mean of most recent 20 market sessions trading value / 100,000,000 KRW",
