@@ -10,7 +10,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 9243101752500.0,
+      "tradingValueKRW": 29666411600.0,
+      "tradingVolume": 300535.0,
+      "listedShares": 92895495.0,
+      "cap": 92431.017525,
+      "adv": 420.7335839725,
+      "runup": -18.509418509418506,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "032640",
@@ -19,7 +29,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 6273041878960.0,
+      "tradingValueKRW": 11923613205.0,
+      "tradingVolume": 815272.0,
+      "listedShares": 424427732.0,
+      "cap": 62730.4187896,
+      "adv": 127.724297596,
+      "runup": -0.8718980549966449,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "006260",
@@ -28,7 +48,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 7706400000000.0,
+      "tradingValueKRW": 56226778750.0,
+      "tradingVolume": 232010.0,
+      "listedShares": 31200000.0,
+      "cap": 77064.0,
+      "adv": 393.228726875,
+      "runup": -25.15151515151515,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "028050",
@@ -37,7 +67,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 8888600000000.0,
+      "tradingValueKRW": 78991015650.0,
+      "tradingVolume": 1780041.0,
+      "listedShares": 196000000.0,
+      "cap": 88886.0,
+      "adv": 872.9111102964999,
+      "runup": -10.728346456692917,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "016360",
@@ -46,7 +86,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 7188650000000.0,
+      "tradingValueKRW": 29098117800.0,
+      "tradingVolume": 364160.0,
+      "listedShares": 89300000.0,
+      "cap": 71886.5,
+      "adv": 272.269417404,
+      "runup": -7.683486238532112,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "000100",
@@ -55,7 +105,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 5359228856800.0,
+      "tradingValueKRW": 12337498000.0,
+      "tradingVolume": 173564.0,
+      "listedShares": 73615781.0,
+      "cap": 53592.288568,
+      "adv": 154.46191595,
+      "runup": -8.999999999999996,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "007660",
@@ -64,7 +124,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 8603560466800.0,
+      "tradingValueKRW": 102587625250.0,
+      "tradingVolume": 896321.0,
+      "listedShares": 73409219.0,
+      "cap": 86035.604668,
+      "adv": 1079.468158157,
+      "runup": 4.363312555654497,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "021240",
@@ -73,7 +143,17 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSPI"
+      "market": "KOSPI",
+      "marketCapKRW": 7161663511200.0,
+      "tradingValueKRW": 16519522200.0,
+      "tradingVolume": 165349.0,
+      "listedShares": 70767426.0,
+      "cap": 71616.635112,
+      "adv": 214.5329813165,
+      "runup": 3.476482617586907,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     },
     {
       "code": "036930",
@@ -82,10 +162,28 @@
       "closeDate": "2026-10-13",
       "closeSource": "https://openapi.krx.co.kr/",
       "closeProvider": "KRX Open API",
-      "market": "KOSDAQ"
+      "market": "KOSDAQ",
+      "marketCapKRW": 12178053702000.0,
+      "tradingValueKRW": 585555748750.0,
+      "tradingVolume": 2310781.0,
+      "listedShares": 46481121.0,
+      "cap": 121780.53702,
+      "adv": 4071.78230018,
+      "runup": 26.876513317191275,
+      "metricsDate": "2026-10-13",
+      "historySessions": 21,
+      "returnBasis": "20 trading sessions; unadjusted KRX closes"
     }
   ],
   "missingCodes": [],
   "warnings": [],
-  "fetchedAt": "2026-10-14T10:48:16.574088+09:00"
+  "fetchedAt": "2026-10-14T13:21:44.461531+09:00",
+  "metricsDefinition": {
+    "cap": "KRX market capitalization / 100,000,000 KRW",
+    "adv": "Mean of most recent 20 market sessions trading value / 100,000,000 KRW",
+    "runup": "(Unadjusted close[t] / close[t-20] - 1) * 100; corporate actions may affect return",
+    "floatPct": "Not provided; MSCI FIF requires a separate source",
+    "newWeight": "Not provided; future index weight is a scenario assumption"
+  },
+  "metricsMissingCodes": []
 }
