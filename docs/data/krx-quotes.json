@@ -1,0 +1,6 @@
+{
+  "provider": null,
+  "status": "awaiting_first_verified_run",
+  "quotes": [],
+  "message": "GitHub Actions에서 KRX 종가 조회가 성공하면 이 파일이 갱신됩니다."
+}
