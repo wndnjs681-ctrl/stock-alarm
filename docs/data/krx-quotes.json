@@ -1,6 +1,91 @@
 {
-  "provider": null,
-  "status": "awaiting_first_verified_run",
-  "quotes": [],
-  "message": "GitHub Actions에서 KRX 종가 조회가 성공하면 이 파일이 갱신됩니다."
+  "provider": "KRX Open API",
+  "requestedDate": "2026-10-13",
+  "asOf": "2026-10-13",
+  "quotes": [
+    {
+      "code": "078930",
+      "name": "GS",
+      "closePrice": 99500.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "032640",
+      "name": "LG유플러스",
+      "closePrice": 14780.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "closePrice": 247000.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "closePrice": 45350.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "016360",
+      "name": "삼성증권",
+      "closePrice": 80500.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "000100",
+      "name": "유한양행",
+      "closePrice": 72800.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "007660",
+      "name": "이수페타시스",
+      "closePrice": 117200.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "021240",
+      "name": "코웨이",
+      "closePrice": 101200.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSPI"
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "closePrice": 262000.0,
+      "closeDate": "2026-10-13",
+      "closeSource": "https://openapi.krx.co.kr/",
+      "closeProvider": "KRX Open API",
+      "market": "KOSDAQ"
+    }
+  ],
+  "missingCodes": [],
+  "warnings": [],
+  "fetchedAt": "2026-10-14T10:46:13.076077+09:00"
 }
