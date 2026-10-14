@@ -34,11 +34,15 @@ jobs:
         env:
           KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
         run: python scripts/update_krx.py
+      - name: Observe MSCI Korea ETF sample AUM
+        env:
+          KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
+        run: python scripts/update_etf_aum.py
       - name: Save verified prices
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/data/krx-quotes.json
+          git add docs/data/krx-quotes.json docs/data/etf-aum.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update verified KRX closing prices'
             git push
